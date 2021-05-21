@@ -1,0 +1,11 @@
+.example1 {
+  writing-mode: horizontal-tb;
+}
+
+.example2 {
+  writing-mode: vertical-rl;
+}
+
+.example3 {
+  writing-mode: vertical-lr;
+}
