@@ -1,0 +1,15 @@
+.example1 {
+  word-wrap: break-word;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: #dacaca;
+}
+
+.example2 {
+  word-wrap: normal;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: #dacaca;
+}
