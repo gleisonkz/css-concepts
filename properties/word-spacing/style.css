@@ -1,0 +1,13 @@
+.example {
+  padding: 10px;
+  border: 1px solid;
+  border-color: #dacaca;
+}
+
+.example1 {
+  word-spacing: normal;
+}
+
+.example2 {
+  word-spacing: 30px;
+}
