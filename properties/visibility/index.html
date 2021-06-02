@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A propriedade visibility</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        A propriedade
+        <span class="property">visibility</span>
+      </h1>
+
+      <section>
+        <h2>
+          <span class="property">visibility</span>:
+          <span class="value">visible</span>
+        </h2>
+        <small>*Aplicado ao item 2</small>
+        <div class="example-container">
+          <div class="example">1</div>
+          <div class="example visible">2</div>
+          <div class="example">3</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          <span class="property">visibility</span>:
+          <span class="value">hidden</span>
+          <span>
+            <small>*Aplicado ao item 2</small><br />
+            <small>*mesmo oculto o item ocupa espaço</small>
+          </span>
+        </h2>
+        <div class="example-container">
+          <div class="example">1</div>
+          <div class="example hidden">2</div>
+          <div class="example">3</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          <span class="property">visibility</span>:
+          <span class="value">collapse</span>
+          <span>
+            <small>*aplicados apenas em rows e columns de uma table </small
+            ><br />
+            <small
+              >*oculta a row ou column porem deixa o espaço disponível</small
+            >
+          </span>
+        </h2>
+        <div class="example-container">
+          <table>
+            <tr>
+              <td>Peter</td>
+              <td>Griffin</td>
+            </tr>
+            <tr class="collapse">
+              <td>Lois</td>
+              <td>Griffin</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

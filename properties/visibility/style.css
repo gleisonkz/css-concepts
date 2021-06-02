@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container {
+  display: flex;
+}
+
+small {
+  font-size: 10px;
+}
+
+.example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid;
+  background-color: purple;
+  border-color: #dacaca;
+}
+
+.visible {
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+table,
+td {
+  border: 1px solid purple;
+}
