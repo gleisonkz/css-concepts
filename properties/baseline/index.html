@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A propriedade vertical-align</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      img.a {
+        vertical-align: baseline;
+      }
+
+      img.b {
+        vertical-align: text-top;
+      }
+
+      img.c {
+        vertical-align: text-bottom;
+      }
+
+      img.d {
+        vertical-align: sub;
+      }
+
+      img.e {
+        vertical-align: super;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        A propriedade
+        <span class="property">vertical-align</span>
+      </h1>
+
+      <small>*aplicado na imagem do quadrado roxo</small>
+
+      <h2>vertical-align: baseline (default):</h2>
+      <p>
+        An <img class="a" src="sqpurple.gif" width="9" height="9" /> image with
+        a default alignment.
+      </p>
+
+      <h2>vertical-align: text-top:</h2>
+      <p>
+        An <img class="b" src="sqpurple.gif" width="9" height="9" /> image with
+        a text-top alignment.
+      </p>
+
+      <h2>vertical-align: text-bottom:</h2>
+      <p>
+        An <img class="c" src="sqpurple.gif" width="9" height="9" /> image with
+        a text-bottom alignment.
+      </p>
+
+      <h2>vertical-align: sub:</h2>
+      <p>
+        An <img class="d" src="sqpurple.gif" width="9" height="9" /> image with
+        a sub alignment.
+      </p>
+
+      <h2>vertical-align: sup:</h2>
+      <p>
+        An <img class="e" src="sqpurple.gif" width="9" height="9" /> image with
+        a super alignment.
+      </p>
+    </div>
+  </body>
+</html>

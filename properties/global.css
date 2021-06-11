@@ -4,6 +4,7 @@ html {
   width: 100%;
   background-color: #1e1e1e;
   color: white;
+  box-sizing: border-box;
 }
 
 body {
