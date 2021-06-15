@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A propriedade user-select</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        A propriedade
+        <span class="property">user-select</span>
+      </h1>
+
+      <section>
+        <h2>
+          <span class="property">user-select</span>:
+          <span class="value">none</span>
+        </h2>
+        <p style="user-select: none">Este texto não pode ser selecionado</p>
+      </section>
+
+      <section>
+        <h2>
+          <span class="property">user-select</span>:
+          <span class="value">contain</span>
+        </h2>
+        <div style="user-select: contain">
+          <p>
+            Só e possível selecionar o texto dentro dos limites desse elemento
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          <span class="property">user-select</span>:
+          <span class="value">all</span>
+        </h2>
+        <div style="user-select: all">
+          <p>A seleção do texto sera realizada com 1 clique</p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
