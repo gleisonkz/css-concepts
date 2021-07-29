@@ -1,0 +1,39 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container {
+  display: flex;
+}
+
+p {
+  border: 1px solid #ffffff;
+  width: 200px;
+}
+
+.clip {
+  text-overflow: clip;
+
+  /* 
+  Para que seja possível 
+  utilizar text-overflow 
+  é necessário definir 
+  também as propriedades abaixo  */
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+
+  /* 
+  Para que seja possível 
+  utilizar text-overflow 
+  é necessário definir 
+  também as propriedades abaixo  */
+
+  white-space: nowrap;
+  overflow: hidden;
+}
