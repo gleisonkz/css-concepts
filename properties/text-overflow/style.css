@@ -12,8 +12,8 @@ p {
   width: 200px;
 }
 
-.clip {
-  text-overflow: clip;
+.ellipsis {
+  text-overflow: ellipsis;
 
   /* 
   Para que seja possível 
@@ -25,8 +25,8 @@ p {
   overflow: hidden;
 }
 
-.ellipsis {
-  text-overflow: ellipsis;
+.clip {
+  text-overflow: clip;
 
   /* 
   Para que seja possível 
