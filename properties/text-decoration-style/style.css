@@ -1,0 +1,16 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container {
+  display: flex;
+  text-shadow: none;
+}
+
+a {
+  color: #c5ecf0;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-size: 30px;
+}
