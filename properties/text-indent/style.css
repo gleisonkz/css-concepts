@@ -1,0 +1,14 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container {
+  display: flex;
+  text-shadow: none;
+}
+
+p {
+  text-indent: 20px;
+  background: #7b8f92;
+}
