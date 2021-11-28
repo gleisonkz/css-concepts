@@ -8,9 +8,36 @@ section {
   text-shadow: none;
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
 a {
   color: #c5ecf0;
   text-decoration-line: underline;
-  text-decoration-style: solid;
   font-size: 30px;
+}
+
+a.solid {
+  text-decoration-style: solid;
+}
+
+a.dotted {
+  text-decoration-style: dotted;
+}
+
+a.dashed {
+  text-decoration-style: dashed;
+}
+
+a.wavy {
+  text-decoration-style: wavy;
+}
+
+a.double {
+  text-decoration-style: double;
 }
